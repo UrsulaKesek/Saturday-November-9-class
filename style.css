@@ -24,14 +24,35 @@ nav ul li {
   width: 200px;
   justify-content: space-evenly;
   font-size: 20px;
-  text-decoration: none;
+  text-align: center;
+  text-decoration-style: none;
   background-color: aqua;
   transition: 0.3s background-color linear;
   padding: 8px;
 }
 li:hover {
   background-color: rgb(7, 89, 243);
-  text-decoration: none;
+  text-decoration-style: none;
   color: white;
   transition: 0.1s background-color linear;
+}
+a {
+  background-color: aqua;
+  margin: 10px;
+  padding: 5px;
+  font-size: 16px;
+  color: black;
+}
+p {
+  display: block;
+  padding: 5px;
+  margin: 5px;
+  font-size: 20px;
+}
+.buttons {
+  display: block;
+  position: relative;
+  left: 30px;
+  top: 20px;
+  height: 100px;
 }
